@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>三国卡兹 · 卡包概率公示 / Pack Odds</title>
+<title>三国卡兹 Three Kingdoms Cards · 卡包概率公示 / Pack Odds</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
@@ -41,13 +41,14 @@ footer{margin-top:26px;font-size:11px;color:#a0937c;text-align:center}
   <a class="backlink" href="index.html">← 返回游戏</a>
 
   <h1>三国卡兹 · 卡包概率公示</h1>
-  <div class="sub">版本 v3.48 · 公示日期：2026-11-04 · 本页内容由游戏代码自动生成（卡池与概率同源）</div>
+  <div class="sub">版本 v3.55 · 公示日期：2026-11-16 · 本页内容由游戏代码自动生成（卡池与概率同源）</div>
 
   <h2>一、消耗</h2>
   <ul>
-    <li>单抽 <b>10 铜钱</b>；十连 <b>90 铜钱</b>（合每次 9 铜钱）。</li>
-    <li>铜钱只能通过关卡通关、对局结算等游戏内行为产出，<b>不可充值购买</b>，不可兑换现金或实物，不可在用户之间转移。</li>
-    <li>本游戏为纯广告变现（IAA）：无内购、无充值入口、无付费墙、无订阅。</li>
+    <li>单抽 <b>100 铜钱</b>；十连 <b>900 铜钱</b>（合每次 90 铜钱）。</li>
+    <li>连续 10 次未出现精英或神将时，下一抽必定为精英卡（不产出神将）。每日首次单抽免费；月卡生效期间每日免费次数 +1。</li>
+    <li>铜钱由关卡通关、对局结算等游戏内行为产出，也可在游戏内「铜钱补给」购买；<b>不可兑换现金或实物</b>，不可在用户之间转移。</li>
+    <li>变现方式：可选消耗型内购（铜钱补给、月卡）与外观皮肤。当前版本<b>不接入广告</b>，游戏内不展示任何广告。无付费墙，全部关卡免费可玩，PvP 不售卖任何数值。</li>
   </ul>
 
   <h2>二、抽取概率</h2>
@@ -62,7 +63,7 @@ footer{margin-top:26px;font-size:11px;color:#a0937c;text-align:center}
   <h2>三、保底规则（按实际实现如实说明）</h2>
   <p>十连的 10 张<b>各自独立</b>按上表概率判定。<b>若 10 张全部判为普通</b>，则把<b>最后一张</b>强制替换为精英卡；其余情况不做任何替换。</p>
   <p>保底<b>不产出神将</b>——神将只能依靠 1% 的判定概率获得，因此保底不会抬高神将的实际出率（十连里至少出现 1 名神将的概率约为 1-(1-1%)^10 ≈ 9.6%，属概率自然结果，非保底承诺）。</p>
-  <p>单抽不享受任何保底。保底只在一次十连内部生效，不跨次累计。</p>
+  <p>累计保底：连续 10 次未出现精英或神将时，下一抽必定为精英卡（不产出神将）。十连内部若 10 张全为普通，最后一张替换为精英。每日首次单抽免费，月卡生效期间每日免费次数 +1。</p>
 
   <h2>四、卡池清单（共 45 张）</h2>
   <h3>神将（7 张）</h3>
@@ -123,9 +124,9 @@ footer{margin-top:26px;font-size:11px;color:#a0937c;text-align:center}
   <h2>五、明盒卡包（与随机抽取无关）</h2>
   <table class="tbl">
     <tr><th>卡包</th><th>价格</th><th>内容</th><th>是否随机</th></tr>
-    <tr><td>布衣补给</td><td>80 铜钱</td><td>5 张（至少 1 名武将）</td><td>否，购买前完全公开</td></tr>
-    <tr><td>名将礼包</td><td>150 铜钱</td><td>6 张（至少 3 名武将）</td><td>否，购买前完全公开</td></tr>
-    <tr><td>诸侯珍藏</td><td>240 铜钱</td><td>8 张（至少 5 名武将）</td><td>否，购买前完全公开</td></tr>
+    <tr><td>布衣补给</td><td>300 铜钱</td><td>5 张（至少 1 名武将）</td><td>否，购买前完全公开</td></tr>
+    <tr><td>名将礼包</td><td>600 铜钱</td><td>6 张（至少 3 名武将）</td><td>否，购买前完全公开</td></tr>
+    <tr><td>诸侯珍藏</td><td>1000 铜钱</td><td>8 张（至少 5 名武将）</td><td>否，购买前完全公开</td></tr>
   </table>
   <p>图鉴页的三档卡包为<b>明盒</b>：购买前即可看到盒内全部卡牌，「每日免费包」同为明盒，两者均<b>不含随机抽取</b>，与上文的概率抽取是两套独立机制。</p>
   <p><b>明盒卡包不含神将。</b>明盒的选卡范围为精英 15 张与普通 23 张，共 38 张；7 张神将不在明盒范围内，只能通过上文「二、抽取概率」中的 1% 神将档获得。</p>
@@ -137,14 +138,14 @@ footer{margin-top:26px;font-size:11px;color:#a0937c;text-align:center}
 
   <div id="en">
     <h1>Pack Odds Disclosure — English Summary</h1>
-    <p><b>Cost.</b> Single pull 10 coins, 10-pull 90 coins. Coins are earned only by playing (stage clears, match results). They <b>cannot be purchased</b> with real money, cannot be exchanged for cash or goods, and cannot be traded. The game is ad-supported (IAA) with no in-app purchases, no top-ups and no paywall.</p>
+    <p><b>Cost.</b> Single pull 100 coins, 10-pull 900 coins. If 10 consecutive pulls yield no Elite or Legend, the next pull is guaranteed an Elite (never a Legend). The first single pull each day is free; an active Monthly Pass adds one free pull per day. Coins come from playing (stage clears, match results) and can also be bought in Coin Supply; they <b>cannot be exchanged for cash or goods</b> and cannot be traded. Monetization: optional consumable in-app purchases (coin bundles, monthly pass) and cosmetic skins. <b>This version shows no ads</b> — no ad SDK is bundled. There is no paywall, every stage is free to play, and PvP never sells power.</p>
     <p><b>Rates per card.</b> God 1% · Elite 12% · Common 87%. Each card first rolls its rarity with these probabilities, then is drawn uniformly from that rarity pool (pool sizes: 7 / 15 / 23; 45 cards in total).</p>
-    <p><b>Pity.</b> Each of the 10 cards in a 10-pull rolls independently. Only if <b>all ten</b> are Common, the <b>last</b> card is replaced by an Elite. The pity <b>never</b> produces a God card, so it does not inflate the 1% God rate. Single pulls have no pity. Pity does not carry across pulls.</p>
+    <p><b>Pity.</b> Each of the 10 cards in a 10-pull rolls independently. Only if <b>all ten</b> are Common, the <b>last</b> card is replaced by an Elite. The pity <b>never</b> produces a God card, so it does not inflate the 1% God rate. The pity counter is <b>cumulative across pulls</b>: once 10 consecutive pulls contain no Elite or God card, the next pull is guaranteed an Elite (never a God card).</p>
     <p><b>Deterministic packs.</b> The three packs in the Collection screen (and the daily free pack) are <b>deterministic</b>: their full contents are visible before purchase, with no randomness. They <b>do not contain God cards</b> — the pool covers 15 Elite and 23 Common cards (38 in total), while the 7 God cards are available only through the 1% God rarity roll in Section 2 above.</p>
-    <p>This page is generated from the game's own card database and odds constants; see <a href="privacy.html">Privacy Policy</a> for data handling. Version v3.48 · published 2026-11-04.</p>
+    <p>This page is generated from the game's own card database and odds constants; see <a href="privacy.html">Privacy Policy</a> for data handling. Version v3.55 · published 2026-11-16.</p>
   </div>
 
-  <footer>三国卡兹 / Iron Front · 本页为应用商店与国内渠道上架所需的公开概率公示页面</footer>
+  <footer>三国卡兹 / Three Kingdoms Cards · 本页为应用商店上架所需的公开概率公示页面</footer>
 </div>
 </body>
 </html>
